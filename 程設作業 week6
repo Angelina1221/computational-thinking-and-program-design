@@ -1,0 +1,278 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled1.ipynb",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyO17fhOOpwUwNXxUA4Eoe+j",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Angelina1221/computational-thinking-and-program-design/blob/master/%E7%A8%8B%E8%A8%AD%E4%BD%9C%E6%A5%AD%20week6\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "iZd5Q_dHWx-F",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "outputId": "ab97754d-e760-43cc-d4a9-9f1de0bc417e"
+      },
+      "source": [
+        "print(\"我的名字是曾芷柔\")"
+      ],
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "我的名字是曾芷柔\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "7qj_PLb3XTf8",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 51
+        },
+        "outputId": "ed129b41-c574-4c2b-e7f6-240969c4ef9a"
+      },
+      "source": [
+        "name=\"曾芷柔\"\n",
+        "print(type(name))\n",
+        "print(\"我的名字是\",name)"
+      ],
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "<class 'str'>\n",
+            "我的名字是 曾芷柔\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "FiTxQ1WBXs-L",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 51
+        },
+        "outputId": "0429bf5a-d292-4e08-e9d9-6c7ee46cc69f"
+      },
+      "source": [
+        "name=input(\"請輸入你的名字\")\n",
+        "print(\"名字為\",name)\n"
+      ],
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "請輸入你的名字曾芷柔\n",
+            "名字為 曾芷柔\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "EKIFJW3nYTT9",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "outputId": "dce75018-93a3-4877-eaba-48b98756eaa7"
+      },
+      "source": [
+        "print(19)"
+      ],
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "19\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "XYQOIjgHZqDN",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "outputId": "b46c74de-e445-4bbf-88d2-dc674d982fa6"
+      },
+      "source": [
+        "age=19\n",
+        "print(\"我的年紀為\",age,\"歲\")"
+      ],
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "我的年紀為 19 歲\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "nBcAlytDZ5_x",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 51
+        },
+        "outputId": "42071f30-3e70-41f9-f132-d7ff5c14c6e7"
+      },
+      "source": [
+        "age=input(\"請輸入你的年紀\")\n",
+        "print(\"年紀是\",age,\"歲\")"
+      ],
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "請輸入你的年紀19\n",
+            "年紀是 19 歲\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "PwaQCJGcabHI",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "outputId": "43d24f80-d5a7-4fb8-e8ef-39f3220e2609"
+      },
+      "source": [
+        "print(44)"
+      ],
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "44\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "pdy_DxCiabPO",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 34
+        },
+        "outputId": "5fd12c19-a0a1-4cf2-a0c1-2447e37163ae"
+      },
+      "source": [
+        "weight=44\n",
+        "print(\" 我的體重為\",weight,\" 公斤\")"
+      ],
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            " 我的體重為 44  公斤\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "WyoTm-0IabYx",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 51
+        },
+        "outputId": "f3ae8c52-1fcf-49ba-ed51-b3b7bc2d0bed"
+      },
+      "source": [
+        "weight=input(\"請輸入你的體重\")\n",
+        "print(\"體重為\",weight,\"公斤\")"
+      ],
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "請輸入你的體重44\n",
+            "體重為 44 公斤\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "a0mVEPB-bf_d",
+        "colab_type": "code",
+        "colab": {}
+      },
+      "source": [
+        ""
+      ],
+      "execution_count": 0,
+      "outputs": []
+    }
+  ]
+}
